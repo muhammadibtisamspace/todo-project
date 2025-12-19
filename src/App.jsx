@@ -58,14 +58,12 @@ function App() {
           <div>
             <ul className="">
               {todos.map((todo, i) => (
-                <>
                   <li key={i}>
                     {todo}
                     <button className="bg-green-500">Move Up</button>
                     <button className="bg-amber-700">Move down</button>
                     <button className="bg-red-500">Delete</button>
                   </li>
-                </>
               ))}
             </ul>
           </div>
